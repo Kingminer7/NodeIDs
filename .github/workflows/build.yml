@@ -22,7 +22,7 @@ jobs:
       - name: Build iOS
         uses: geode-catgirls/build-geode-mod@main
         with:
-          bindings: pengubow/bindings
+          bindings: kingminer7/bindings
           target: iOS
           combine: true
           gh-pat: ${{ secrets.GH_PAT }}
